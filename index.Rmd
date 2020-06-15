@@ -1,0 +1,47 @@
+---
+title: "GitHub-Pages - Test"
+subtitle: ""
+author: "FC"
+date: "`r format(Sys.time(), '%d %b, %Y')`"
+header-includes:
+   - \usepackage{wrapfig}
+   - \usepackage{lipsum}
+urlcolor: blue
+output: 
+  html_document:
+    number_sections: false
+    fig_caption: false
+fontsize: 12pt
+---
+
+\newpage
+\tableofcontents
+\listoftables
+\listoffigures
+
+\newpage
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a test page.
+<br><br>
+
+
+This is the link to my multilevel ICPSR course:
+
+## AWS page
+<center>
+<a href="https://master.d25pjjdolr5yyg.amplifyapp.com/">
+<img border="0" alt="AWS Page" src="./img/main_01.png" width="400" height="300" style="border:1px solid black">
+</a>
+</center>
+
+## Netlify page
+<center>
+<a href="https://mlm2020.netlify.app/">
+<img border="0" alt="Netlify Page" src="./img/rplot8_4.png" width="400" height="300" style="border:1px solid black">
+</a>
+</center>
+
+ 
